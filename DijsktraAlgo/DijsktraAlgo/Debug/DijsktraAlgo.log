@@ -1,0 +1,22 @@
+﻿  Main.cpp
+D:\ARTFX\GAME_3\Programmation\DijkstraAlgo\DijsktraAlgo\DijsktraAlgo\PathFindingList.h(35,21): warning C4018: '<' : incompatibilité signed/unsigned
+D:\ARTFX\GAME_3\Programmation\DijkstraAlgo\DijsktraAlgo\DijsktraAlgo\PathFindingList.h(60,21): warning C4018: '<' : incompatibilité signed/unsigned
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\xutility(5500,21): error C2676: '==' binaire : 'NodeRecord' ne définit pas cet opérateur ou une conversion vers un type acceptable pour l'opérateur prédéfini
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\xutility(5534): message : voir la référence à l'instanciation de la fonction modèle '_InIt std::_Find_unchecked1<_InIt,_Ty>(_InIt,const _InIt,const _Ty &,std::false_type)' en cours de compilation
+          with
+          [
+              _InIt=NodeRecord *,
+              _Ty=NodeRecord
+          ]
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include\xutility(5540): message : voir la référence à l'instanciation de la fonction modèle '_InIt std::_Find_unchecked<NodeRecord*,_Ty>(const _InIt,const _InIt,const _Ty &)' en cours de compilation
+          with
+          [
+              _InIt=NodeRecord *,
+              _Ty=NodeRecord
+          ]
+D:\ARTFX\GAME_3\Programmation\DijkstraAlgo\DijsktraAlgo\DijsktraAlgo\PathFindingList.h(47): message : voir la référence à l'instanciation de la fonction modèle '_InIt std::find<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,NodeRecord>(_InIt,const _InIt,const _Ty &)' en cours de compilation
+          with
+          [
+              _InIt=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<NodeRecord>>>,
+              _Ty=NodeRecord
+          ]
