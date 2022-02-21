@@ -1,14 +1,18 @@
 #pragma once
 #include <string>
 #include <vector>
+#include "Precedence.h"
+#include <iostream>
 
-
+//structure to manipulate nodes
 struct NodeRecord
 {
-	std::string node;
-	std::string connection;
+	char node;
+	Precedence precedence;
 	int costSoFar;
+	bool operator==(NodeRecord other) { return(node == other.node && costSoFar == other.costSoFar); }
 };
+
 
 class PathFindingList 
 {
@@ -20,6 +24,7 @@ public:
 	{
 		nodes.push_back(node);
 		length++;
+		//fonction trier
 	}
 
 	void RemoveNode()
